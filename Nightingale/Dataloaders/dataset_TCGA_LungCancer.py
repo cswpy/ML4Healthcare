@@ -97,6 +97,14 @@ class TCGA_LungCancer(torch.utils.data.Dataset):
     def __len__(self):
         return self.num_patches
 
+# The class TCGA_LungCancer_Feat has several attributes that are used to store the data, 
+# including self.train (a Boolean flag indicating whether the dataset is for training or testing), 
+#self.patch_feat_all (an array containing the features of all patches in the dataset), 
+#self.patch_label_all (an array containing the labels of all patches in the dataset),
+#self.patch_corresponding_slide_label (an array containing the labels of the slides corresponding to each patch), 
+#self.patch_corresponding_slide_index (an array containing the indices of the slides corresponding to each patch), 
+#and self.patch_corresponding_slide_name (an array containing the names of the slides corresponding to each patch). 
+#The class also has a method called get_bag_feats, which is used to load the features of each patch from a CSV file.
 
 class TCGA_LungCancer_Feat(torch.utils.data.Dataset):
     # @profile
