@@ -90,6 +90,7 @@ Before you can use this repository, you'll need to have the following installed:
 - slideflow[tf] (>= 0.4.0)
 - cucim (>= 0.19.0)
 - cupy-cuda11x (>= 9.2.0)
+
 To install the required packages, you can use pip by running the following command in your terminal:
 ```sh
 !pip install -r Nightingale/requirements.txt
