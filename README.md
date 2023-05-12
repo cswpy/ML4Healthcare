@@ -100,7 +100,7 @@ To install the required packages, you can use pip by running the following comma
 
 Clone the repo
    ```sh
-   git clone https://github.com/BaraaAlJorf/Jetbot_Linefollowing.git
+   git clone https://github.com/cswpy/ML4Healthcare.git
    ```
 
 <!-- USAGE EXAMPLES -->
