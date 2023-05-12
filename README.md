@@ -78,18 +78,18 @@ This repository contains code testing a variety of Machine Learning models on a 
 
 Before you can use this repository, you'll need to have the following installed:
 
-Python (>= 3.6)
-PyTorch (>= 1.7.0)
-TorchVision (>= 0.8.0)
-PyTorch Lightning (>= 1.2.0)
-NumPy (>= 1.18.5)
-Pandas (>= 1.1.4)
-Matplotlib (>= 3.3.2)
-Pillow (>= 7.2.0)
-tqdm (>= 4.54.1)
-slideflow[tf] (>= 0.4.0)
-cucim (>= 0.19.0)
-cupy-cuda11x (>= 9.2.0)
+- Python (>= 3.6)
+- PyTorch (>= 1.7.0)
+- TorchVision (>= 0.8.0)
+- PyTorch Lightning (>= 1.2.0)
+- NumPy (>= 1.18.5)
+- Pandas (>= 1.1.4)
+- Matplotlib (>= 3.3.2)
+- Pillow (>= 7.2.0)
+- tqdm (>= 4.54.1)
+- slideflow[tf] (>= 0.4.0)
+- cucim (>= 0.19.0)
+- cupy-cuda11x (>= 9.2.0)
 To install the required packages, you can use pip by running the following command in your terminal:
 ```sh
 !pip install -r Nightingale/requirements.txt
