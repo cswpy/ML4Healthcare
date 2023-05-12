@@ -104,8 +104,8 @@ Clone the repo
    ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
+<!-- ## Usage
+ -->
 
 
 <!-- CONTRIBUTING -->
