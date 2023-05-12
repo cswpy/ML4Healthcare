@@ -131,7 +131,7 @@ Don't forget to give the project a star! Thanks again!
 
 Baraa Al Jorf - baj321@nyu.edu, Eddie Seung Hun Han - esh376@nyu.edu , Philip Wang - pw1287@nyu.edu 
 
-Project Link: [https://github.com/BaraaAlJorf/Jetbot_Linefollowing](https://github.com/BaraaAlJorf/Jetbot_Linefollowing)
+Project Link: [https://github.com/cswpy/ML4Healthcare](https://github.com/cswpy/ML4Healthcare)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
