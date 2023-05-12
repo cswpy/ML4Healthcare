@@ -91,7 +91,7 @@ Before you can use this repository, you'll need to have the following installed:
 - cucim (>= 0.19.0)
 - cupy-cuda11x (>= 9.2.0)
 
-To install the required packages, you can use pip by running the following command in your terminal:
+To install the required packages, you can use pip by running the following command in your notebook/terminal:
 ```sh
 !pip install -r Nightingale/requirements.txt
 ```
@@ -129,7 +129,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Baraa Al Jorf - baj321@nyu.edu, Eddie Han - , Philip Wang -map971@nyu.edu
+Baraa Al Jorf - baj321@nyu.edu, Eddie Seung Hun Han - esh376@nyu.edu , Philip Wang - pw1287@nyu.edu 
 
 Project Link: [https://github.com/BaraaAlJorf/Jetbot_Linefollowing](https://github.com/BaraaAlJorf/Jetbot_Linefollowing)
 
