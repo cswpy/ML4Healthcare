@@ -24,9 +24,9 @@
 <h3 align="center">Breast Cancer Stage Classification</h3>
 
   <p align="center">
-    Line Following Robot implementation on Jetbot
+    A submission for the Nightingale Challenge
     <br />
-    <a href="https://app.nightingalescience.org/contests/vd8g98zv9w0p"><strong>Explore the Competition »</strong></a>
+    <a href="https://app.nightingalescience.org/contests/vd8g98zv9w0p"><strong>Learn more about the Challenge »</strong></a>
     <br />
     <br />
     <a href="https://github.com/cswpy/Ml4Healthcare/issues">Report Bug</a>
@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository contains code for a road-following car built using the JetBot platform. The JetBot is a small, AI-enabled robot that is designed to teach machine learning concepts and robotics principles. This car uses image processing to detect black lines and green boxes to follow a track. The green boxes indicate U-turns and other turns. More detail about the task tackled can be found <a href="https://github.com/BaraaAlJorf/Jetbot_Linefollowing/tree/main/Detailed_Report">here</a>
+This repository contains code testing a variety of Machine Learning models on a a private dataset supplied through Nightingale. The repository contains a DenseNet model, a CLAM model, TransMIL, and a WENO dataloader <a href="https://github.com/BaraaAlJorf/Jetbot_Linefollowing/tree/main/Detailed_Report">here</a>
 
 ### Built With
 
@@ -76,24 +76,28 @@ This repository contains code for a road-following car built using the JetBot pl
 
 ### Prerequisites
 
-To run this code, you will need a JetBot with a camera and a working installation of the JetPack software. You will also need the following Python libraries:
+Before you can use this repository, you'll need to have the following installed:
 
--traitlets
--ipywidgets
--cv2 (OpenCV)
--numpy
--PIL (Python Imaging Library)
-
-### Jetbot Setup
-
-The JetBot is an open-source AI robot platform based on the NVIDIA Jetson Nano that is designed to be easy to build, assemble, and use. Here are the steps to build and set up a JetBot:
-
-1. Obtain the necessary hardware components: You will need a Jetson Nano Developer Kit which comes with a camera, motors, wheels, battery, and other necessary components 
-2. Follow the steps on https://jetbot.org/master/index.html to setup the appropriate OS on your Jetbot
+Python (>= 3.6)
+PyTorch (>= 1.7.0)
+TorchVision (>= 0.8.0)
+PyTorch Lightning (>= 1.2.0)
+NumPy (>= 1.18.5)
+Pandas (>= 1.1.4)
+Matplotlib (>= 3.3.2)
+Pillow (>= 7.2.0)
+tqdm (>= 4.54.1)
+slideflow[tf] (>= 0.4.0)
+cucim (>= 0.19.0)
+cupy-cuda11x (>= 9.2.0)
+To install the required packages, you can use pip by running the following command in your terminal:
+```sh
+!pip install -r Nightingale/requirements.txt
+```
 
 ### Installation
 
-Clone the repo onto your jetbot
+Clone the repo
    ```sh
    git clone https://github.com/BaraaAlJorf/Jetbot_Linefollowing.git
    ```
@@ -101,30 +105,6 @@ Clone the repo onto your jetbot
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To use this code, simply clone the repository onto your JetBot and run the 'escape-2.ipynb' notebook. This will start the camera stream and begin processing images to follow the black lines.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### Code Overview
-The road_following.ipynb notebook contains the code for the road-following car. Here is a brief overview of the main components:
-
-#### Camera and Robot Instances
-The code creates instances of the Camera and Robot classes provided by the JetBot library. These instances are used to capture images and control the movement of the car.
-
-#### Image Processing
-The code processes the camera images to detect black lines and green boxes. It does this by:
-
-Identifying black and green pixels in the image.
-Preprocessing the image by removing noise using erode and dilate operations.
-Finding contours in the image.
-Drawing contours onto the image for debugging purposes.
-Calculating the angle and center of the black boxes.
-Sending the "error" distance from center and angle to the PID controller.
-#### Main Loop
-The main loop of the code processes images captured by the camera in real time. It isolates the black line in the image, removes noise, finds contours, and calculates the angle and center of the black boxes. It then sends this information to the PID controller to adjust the movement of the car.
-
-If the black line is not detected for a certain number of frames, the car will stop moving and the program will exit.
 
 
 <!-- CONTRIBUTING -->
@@ -148,7 +128,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Baraa Al Jorf - baj321@nyu.edu, Manuel Padilla -map971@nyu.edu
+Baraa Al Jorf - baj321@nyu.edu, Eddie Han - , Philip Wang -map971@nyu.edu
 
 Project Link: [https://github.com/BaraaAlJorf/Jetbot_Linefollowing](https://github.com/BaraaAlJorf/Jetbot_Linefollowing)
 
@@ -158,10 +138,10 @@ Project Link: [https://github.com/BaraaAlJorf/Jetbot_Linefollowing](https://gith
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-url]: https://github.com/BaraaAlJorf/Jetbot_Linefollowing/graphs/contributors
+[contributors-url]: https://github.com/cswpy/ML4Healthcare/graphs/contributors
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/BaraaaALJorf/Jetbot_Linefollowing.svg?style=for-the-badge
-[forks-url]: https://github.com/BaraaAlJorf/Jetbot_Linefollowing//network/members
+[forks-shield]: https://img.shields.io/github/forks/cswpy/ML4Healthcare.svg?style=for-the-badge
+[forks-url]: https://github.com/cswpy/ML4Healthcare/network/members
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/baraaaljorf/
