@@ -65,8 +65,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository contains code testing a variety of Machine Learning models on a a private dataset supplied through Nightingale. The repository contains a DenseNet model, a CLAM model, TransMIL, and a WENO dataloader <a href="https://github.com/BaraaAlJorf/Jetbot_Linefollowing/tree/main/Detailed_Report">here</a>
-
+This repository contains code testing a variety of Machine Learning models on a a private dataset supplied through Nightingale. The repository contains a DenseNet model, a CLAM model, TransMIL, and a WENO dataloader 
+- <a href="https://github.com/mahmoodlab/CLAM">CLAM</a>
+- <a href="https://github.com/szc19990412/TransMIL">TransMIL</a>
+- <a href="https://github.com/miccaiif/WENO">WENO</a>
 ### Built With
 
 * [![Jupyter][Jupyter.com]][Jupyter-url]
