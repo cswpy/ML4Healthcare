@@ -66,6 +66,8 @@
 ## About The Project
 
 This repository contains code testing a variety of Machine Learning models on a a private dataset supplied through Nightingale. The repository contains a DenseNet model, a CLAM model, TransMIL, and a WENO dataloader 
+
+Github Repositories:
 - <a href="https://github.com/mahmoodlab/CLAM">CLAM</a>
 - <a href="https://github.com/szc19990412/TransMIL">TransMIL</a>
 - <a href="https://github.com/miccaiif/WENO">WENO</a>
